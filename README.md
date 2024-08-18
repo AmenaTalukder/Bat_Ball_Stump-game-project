@@ -9,16 +9,13 @@ Ball beats Stump but loses to Bat.
 Stump beats Bat but loses to Ball.
 
  <br>The game tracks the number of wins, losses, and ties, which are stored in the browser's local storage to maintain the score across sessions. The game also features a reset option to clear the current score and start over. Additionally, a win sound effect plays when the player wins a round.
-
  <br>Technologies Used:
-
  <br>HTML5 for structuring the game interface.
  <br>CSS3 for styling the game elements.
  <br>JavaScript for game logic, user interaction, and score management.
  <br>LocalStorage for persisting the score across sessions.
  <br>Audio element for adding sound effects.
  <br>Features:
-
  <br>Intuitive button-based interface with images representing each choice.
  <br>Real-time result display after each move.
  <br>Persistent score tracking across sessions using localStorage.
