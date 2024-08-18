@@ -1,30 +1,4 @@
-let scoreStr = localStorage.getItem('Score');
-    let score;
-    resetScore(scoreStr);
-
-    //score reset koarar function
-    function resetScore(scoreStr) {
-      score = scoreStr ? JSON.parse(scoreStr) : {
-        win: 0,
-        lost: 0,
-        tie: 0,
-      };
-
-      //score display koarar function
-      score.displayScore = function() {
-        return `Won: ${score.win} | Lost: ${score.lost} | Tie: ${score.tie}`;
-      };
-
-      showResult();
-    }
-
-    function generateComputerChoice() {
-      //This will generate random number between 0 and 3
-      let randomNumber = Math.random() * 3;
-      if (randomNumber<= 1) { 
-        return 'Bat';
-      } else if (randomNumber<= 2) {
-     let scoreStr = localStorage.getItem("Score");
+let scoreStr = localStorage.getItem("Score");
 let score;
 resetScore(scoreStr);
 
