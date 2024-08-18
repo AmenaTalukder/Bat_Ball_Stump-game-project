@@ -12,8 +12,8 @@ Technologies Used:<br>
 <br>CSS3 for styling the game elements.
 <br>JavaScript for game logic, user interaction, and score management.
 <br>LocalStorage for persisting the score across sessions.
-<br>Audio element for adding sound effects.
-<br>Features:
+<br>Audio element for adding sound effects.<br>
+<br>Features:<br>
 Intuitive button-based interface with images representing each choice.
 Real-time result display after each move.
 Persistent score tracking across sessions using localStorage.
