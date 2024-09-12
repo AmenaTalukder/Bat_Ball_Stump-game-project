@@ -1,5 +1,6 @@
 Project Title: Bat Ball Stump Game<br>
-!![Screenshot_3](https://github.com/user-attachments/assets/d0f346c7-2cd6-4da2-a06a-cca3da7fd266)
+## Demo
+![Screenshot_3](https://github.com/user-attachments/assets/d0f346c7-2cd6-4da2-a06a-cca3da7fd266)
 
 Project Description:
 This is a simple web-based game where the player competes against the computer in a game of chance using three choices: Bat, Ball, and Stump. The game logic is inspired by Rock-Paper-Scissors.<br> Players choose one of the three options, and the computer randomly selects its move. The result is then calculated based on predefined rules:<br>
